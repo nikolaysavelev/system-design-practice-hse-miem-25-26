@@ -1,0 +1,3 @@
+[submodule "hw3/patroni"]
+	path = hw3/patroni
+	url = git@github.com:patroni/patroni.git
