@@ -83,7 +83,7 @@ Kafka является распределенным программным бр�
     docker run -it --rm --network kafka-kraft-cluster_default confluentinc/cp-kafka:latest kafka-topics \
     --create \
     --topic test_topic \
-    --bootstrap-server kafka1:9092,kafka2:9092,kafka3:9092 \
+    --bootstrap-server kafka01:9092,kafka02:9092,kafka03:9092 \
     --partitions 8 \
     --replication-factor 3 \
     --if-not-exists
